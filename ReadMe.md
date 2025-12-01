@@ -67,15 +67,16 @@ Sensor Ultrassônico
 
 --
 
-**👥 Membros da Equipe**
-Eduardo Cavalcanti
-João Pedro Arruda
-Glauberson Ribeiro
-Helãma Procídio — **Líder**
-Lucas Paguetti
-Pablo Tamborini
-Rodrigo Morais
-Tiago Luiz
+👥 **Membros da Equipe**
+
+- Eduardo Cavalcanti  
+- João Pedro Arruda  
+- Glauberson Ribeiro  
+- Helãma Procídio — Líder  
+- Lucas Paguetti  
+- Pablo Tamborini  
+- Rodrigo Morais  
+- Tiago Luiz
 
 --
 

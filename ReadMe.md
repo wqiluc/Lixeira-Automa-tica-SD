@@ -30,12 +30,12 @@ Sempre que algo é detectado entre 10 cm e 30 cm, a tampa abre automaticamente e
 --
 
 **🔧 Componentes Principais**
-Arduino Uno;
-Sensor Ultrassônico HC-SR04;
-Servo Motor;
-Protoboard e jumpers;
-Estrutura física da lixeira
-Fonte de energia / USB.
+- Arduino Uno;
+- Sensor Ultrassônico HC-SR04;
+- Servo Motor;
+- Protoboard e jumpers;
+- Estrutura física da lixeira ;
+- Fonte de energia / USB.
 
 --
 
@@ -51,7 +51,7 @@ O ciclo se repete continuamente.
 
 **🛠️💻 Tecnologias e Ferramentas Utilizadas**:
 
-🌐 Site
+🌐 Site:
 <p align="center">
   <img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
   &nbsp;&nbsp;

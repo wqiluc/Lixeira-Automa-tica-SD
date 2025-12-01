@@ -18,7 +18,7 @@ O objetivo é aplicar os conceitos aprendidos na disciplina, criando uma soluç�
 
 --
 
-**⚙️ Como Funciona**:
+**🗑️⚙️ Como Funciona**:
 
 A lixeira funciona utilizando:
 
@@ -35,7 +35,7 @@ Sensor Ultrassônico HC-SR04;
 Servo Motor;
 Protoboard e jumpers;
 Estrutura física da lixeira
-Fonte de energia / USB;
+Fonte de energia / USB.
 
 --
 
@@ -49,7 +49,7 @@ O ciclo se repete continuamente.
 
 --
 
-**🛠️ Tecnologias e Ferramentas Utilizadas**:
+**🛠️💻 Tecnologias e Ferramentas Utilizadas**:
 
 🌐 Site
 <p align="center">
@@ -58,21 +58,23 @@ O ciclo se repete continuamente.
   <img height="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 </p>
 
-🤖 Protótipo
-Arduino IDE
-Linguagem C/C++
-Protoboard / Jumpers
-Servo Motor
-Sensor Ultrassônico
+🤖 Protótipo:
+- Arduino IDE;
+- Linguagem C/C++;
+- Protoboard / Jumpers;
+- Servo Motor;
+- Sensor Ultrassônico.
 
 --
 
 👥 **Membros da Equipe**
 
+**projeto desenvolvido pelos discentes**:
+
 - Eduardo Cavalcanti  
 - João Pedro Arruda  
 - Glauberson Ribeiro  
-- Helãma Procídio — Líder  
+- Helamã Procídio — **Líder**
 - Lucas Paguetti  
 - Pablo Tamborini  
 - Rodrigo Morais  
@@ -82,11 +84,11 @@ Sensor Ultrassônico
 
 🗂️ **Estrutura de Arquivos do Projeto**
 
-- inicio.html🌐  
+- index.html🌐 (Aba Inicial)
 - perguntas.html🌐  
 - equipe.html🌐  
 - prototipo.html🌐
-- styles.css 🎨  
+- styles.css 🎨🖌️
 - Todas as imagens (.jpeg) utilizadas no site 🖼️
 
 

@@ -3,90 +3,262 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lixeira Automatizada - Projeto Sistemas Digitais</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Documentação - Lixeira Automatizada</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="inicio-pagina">
+<body>
 
-<header>
-    <div class="logo">
-        <img src="logo.jpeg" alt="Lixeira Automatizada">
-    </div>
-    <div class="header-buttons">
-        <a href="equipe.html" class="btn">Equipe</a>
-        <a href="perguntas.html" class="btn">Perguntas</a>
-        <a href="prototipo.html" class="btn">Protótipo</a>
-    </div>
-</header>
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo-mini">
+                <img src="assets/images/logo.jpeg" alt="Logo">
+                <span>Lixeira Automatizada</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#descricao">Descrição</a></li>
+                <li><a href="#autores">Equipe</a></li>
+                <li><a href="#tecnico">Técnico</a></li>
+                <li><a href="#codigo">Código</a></li>
+                <li><a href="#conclusao">Lições</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
 
-<div class="principal-missao">
-    <h1>Missão do Projeto 🗑️</h1>
-    <p>
-        Nossa missão é transformar o ato de descartar lixo em algo simples, higiênico e totalmente automatizado. 
-        A Lixeira Automática nasce da ideia de unir tecnologia, praticidade e inovação para facilitar o dia a dia das pessoas. 
-        Com sensores inteligentes e movimentos automáticos, buscamos reduzir o contato físico, prevenir a disseminação de germes e oferecer uma experiência mais rápida, segura e eficiente. 
-        Acreditamos que, se o mundo evolui, até as pequenas tarefas — como jogar lixo fora — devem acompanhar esse avanço.
-    </p>
-    <br>
-    <br>
-    
-<h2>Propostas</h2>
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>Lixeira Automatizada 🗑️</h1>
+            <p class="tagline">Tecnologia, praticidade e inovação para um descarte consciente.</p>
+            <div class="keywords">
+                <span class="badge">Automação</span>
+                <span class="badge">Arduino</span>
+                <span class="badge">Sustentabilidade</span>
+                <span class="badge">Acessibilidade</span>
+                <span class="badge">Higiene</span>
+            </div>
+            <a href="#descricao" class="btn-hero">Conhecer Projeto</a>
+        </div>
+    </section>
 
-<div class="iniciativas">
-    <div class="iniciativa">
-        <img src="Lixeira.jpg" alt="Descarte Intuitivo">
-        <p>A Lixeira Automática foi pensada para tornar o descarte mais intuitivo, acessível e interativo, incentivando o usuário a descartar corretamente.</p>
-    </div>
+    <section id="descricao" class="container">
+        <h2>Descrição do Projeto</h2>
+        
+        <div class="desc-grid">
+            <div class="card-desc">
+                <h3>Motivação</h3>
+                <p>O ato de descartar lixo, embora simples, envolve riscos de contaminação e barreiras de acessibilidade. A motivação nasce da necessidade de reduzir o contato físico em ambientes compartilhados e facilitar a vida de pessoas com mobilidade reduzida.</p>
+            </div>
+            <div class="card-desc">
+                <h3>Objetivo</h3>
+                <p>Transformar o descarte de resíduos em um processo 100% automatizado, higiênico e intuitivo, utilizando sensores de baixo custo para criar uma solução replicável e eficiente.</p>
+            </div>
+            <div class="card-desc">
+                <h3>Contextualização</h3>
+                <p>Inserido no contexto de Cidades Inteligentes e IoT (Internet das Coisas), o projeto aplica conceitos de Sistemas Digitais para resolver problemas cotidianos de saúde pública e ergonomia doméstica.</p>
+            </div>
+        </div>
 
-    <div class="iniciativa">
-        <img src="toque.jpg" alt="Reduz a Necessidade de toque">
-        <p>Automatizando a tampa, o protótipo reduz a necessidade de toque, diminuindo riscos relacionados à transmissão de germes e bactérias.</p>
-    </div>
+        <div class="esquema-conceitual">
+            <h3>Esquema Conceitual</h3>
+            <div class="placeholder-img">
+                <p>Insira aqui a imagem do Esquema Conceitual / Diagrama de Blocos</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="iniciativa">
-        <img src="arduino.jpg" alt="Tecnologia">
-        <p>Mostramos que é possível criar equipamentos inteligentes com sensores, motores e circuitos básicos; promovendo inovação com criatividade.</p>
-    </div>
+    <section id="autores" class="container">
+        <h2>Autores 👨🏻‍💻</h2>
+        <div class="equipe-grid">
+            <div class="membro-card">
+                <img src="assets/images/eduardo.jpeg" alt="Eduardo">
+                <h4>Eduardo Cavalcanti</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="membro-card">
+                <img src="assets/images/joao.jpeg" alt="João">
+                <h4>João Pedro Arruda</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            </div>
+    </section>
 
-    <div class="iniciativa">
-        <img src="espacopequeno.jpg" alt="Ambientação">
-        <p>A lixeira se adapta a lugares apertados, com abertura que não atrapalha a circulação nem a posição de outros móveis.</p>
-    </div>
-</div>
+    <section id="tecnico" class="container">
+        <h2>Especificações Técnicas ⚙️</h2>
+        
+        <h3>Componentes e Suprimentos</h3>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Componente</th>
+                        <th>Descrição</th>
+                        <th>Qtd.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arduino Uno R3</td>
+                        <td>Microcontrolador principal do sistema.</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Sensor Ultrassônico HC-SR04</td>
+                        <td>Realiza a leitura de distância para detecção.</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Servo Motor SG90</td>
+                        <td>Atuador responsável por abrir a tampa.</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Jumpers / Protoboard</td>
+                        <td>Conexões elétricas do circuito.</td>
+                        <td>Vários</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-<div class="iniciativas">
-    <div class="iniciativa">
-        <img src="sustentabilidade.jpg" alt="Sustentabilidade e Impacto Ambiental">
-        <p>O projeto contribui para um descarte mais consciente, incentivando práticas sustentáveis e reduzindo riscos de contaminação no ambiente.</p>
-    </div>
+        <h3>Aplicativos e Plataformas</h3>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Software/Ferramenta</th>
+                        <th>Uso</th>
+                        <th>Versão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arduino IDE</td>
+                        <td>Programação em C++</td>
+                        <td>2.0+</td>
+                    </tr>
+                    <tr>
+                        <td>Tinkercad</td>
+                        <td>Simulação e prototipagem virtual</td>
+                        <td>Web</td>
+                    </tr>
+                    <tr>
+                        <td>VS Code</td>
+                        <td>Desenvolvimento Web (Documentação)</td>
+                        <td>Latest</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-    <div class="iniciativa">
-        <img src="eficiencia.jpg" alt="Eficiência Operacional">
-        <p>Desenvolvida para operar com baixo consumo energético, a lixeira automática mantém desempenho ideal sem comprometer a economia de energia.</p>
-    </div>
+    <section id="montagem" class="container">
+        <h2>Passo a Passo de Montagem 🛠️</h2>
+        <div class="timeline">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h4>Montagem do Circuito</h4>
+                    <p>Conecte o sensor ultrassônico e o servo motor ao Arduino utilizando a protoboard conforme o esquema elétrico.</p>
+                    <div class="step-img-placeholder">Foto da Protoboard</div>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h4>Estrutura Física</h4>
+                    <p>Acople o servo motor na dobradiça da tampa da lixeira e fixe o sensor na parte frontal.</p>
+                    <div class="step-img-placeholder">Foto da Montagem</div>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h4>Upload do Código</h4>
+                    <p>Conecte o Arduino via USB e faça o upload do código fonte através da IDE.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="iniciativa">
-        <img src="engenharia.jpg" alt="Desenvolvimento e Engenharia">
-        <p>A construção do protótipo envolveu etapas de engenharia, testes de precisão e ajustes estruturais para garantir robustez e durabilidade.</p>
-    </div>
+    <section id="codigo" class="container">
+        <h2>Código Fonte 💻</h2>
+        <div class="code-wrapper">
+            <p>Abaixo, os trechos essenciais da lógica de controle:</p>
+            <pre><code>
+// Definição dos pinos
+#define TRIGGER_PIN 7
+#define ECHO_PIN 6
+#define SERVO_PIN 9
 
-    <div class="iniciativa">
-        <img src="inclusao.jpg" alt="Acessibilidade e Inclusão">
-        <p>A automação facilita o uso por pessoas com mobilidade reduzida, tornando o processo de descarte mais acessível e inclusivo.</p>
-    </div>
-</div>
+void loop() {
+  long duration, distance;
+  
+  // Lógica do sensor ultrassônico
+  digitalWrite(TRIGGER_PIN, LOW); 
+  delayMicroseconds(2); 
+  digitalWrite(TRIGGER_PIN, HIGH);
+  
+  // Se distância < 20cm, abrir tampa
+  if (distance < 20) {
+     abrirTampa();
+  }
+}
+            </code></pre>
+            <div class="code-actions">
+                <a href="#" class="btn-download github"><i class="fab fa-github"></i> Ver Repositório Completo</a>
+                <a href="#" class="btn-download zip"><i class="fas fa-file-archive"></i> Baixar Projeto (.zip)</a>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <h2 class="parceria-titulo">Em parceria com:</h2>
-    <div class="parceria-container">
-        <a href="https://www.cesar.school" target="_blank">
-            <img src="Cesar.jpeg" alt="Cesar School">
-        </a>
-        <a href="https://www.portodigital.org" target="_blank">
-            <img src="Porto.jpeg" alt="Porto Digital">
-        </a>
-    </div>
-</footer>
+    <section id="video" class="container">
+        <h2>Demonstração em Vídeo 🎬</h2>
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/9FOFril-Zs4?si=0aUqVryuTy6Q1VbT"
+                title="Vídeo demonstrativo"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
 
+    <section id="conclusao" class="container">
+        <h2>Conclusão e Aprendizados 🧠</h2>
+        <div class="desc-grid">
+            <div class="card-desc problema">
+                <h3>⚠️ Problemas Enfrentados</h3>
+                <p>Houve dificuldade inicial na calibração do sensor ultrassônico para evitar leituras falsas. Também foi necessário ajustar a força do servo motor para o peso da tampa utilizada.</p>
+            </div>
+            <div class="card-desc licao">
+                <h3>✅ Lições Aprendidas</h3>
+                <p>Aprendemos sobre a importância da modularização do código e como a escolha dos materiais físicos impacta diretamente na escolha dos componentes eletrônicos (torque vs peso).</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="parceria-titulo">Em parceria com:</h2>
+        <div class="parceria-container">
+            <a href="https://www.cesar.school" target="_blank">
+                <img src="assets/images/Cesar.jpeg" alt="Cesar School">
+            </a>
+            <a href="https://www.portodigital.org" target="_blank">
+                <img src="assets/images/Porto.jpeg" alt="Porto Digital">
+            </a>
+        </div>
+        <p style="margin-top: 20px; color: #555; font-size: 12px;">Disciplina de Sistemas Digitais - 2025.2</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

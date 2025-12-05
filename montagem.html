@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montagem e Código - Lixeira Automatizada</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-content">
+            <div class="logo-mini">
+                <img src="assets/images/logo.jpeg" alt="Logo">
+                <span>Lixeira Automatizada</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="especificacoes.html">Especificações</a></li>
+                <li><a href="montagem.html" class="active">Montagem & Código</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <section class="container" style="margin-top: 120px;">
+        <h2>Passo a Passo de Montagem 🛠️</h2>
+        <div class="timeline">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h4>Montagem do Circuito</h4>
+                    <p>Conecte o sensor ultrassônico e o servo motor ao Arduino utilizando a protoboard conforme o esquema elétrico.</p>
+                    <div class="step-img-placeholder">Foto da Protoboard</div>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h4>Estrutura Física</h4>
+                    <p>Acople o servo motor na dobradiça da tampa da lixeira e fixe o sensor na parte frontal.</p>
+                    <div class="step-img-placeholder">Foto da Montagem</div>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h4>Upload do Código</h4>
+                    <p>Conecte o Arduino via USB e faça o upload do código fonte através da IDE.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Código Fonte 💻</h2>
+        <div class="code-wrapper">
+            <p>Trechos essenciais da lógica de controle (C++ / Arduino):</p>
+            <pre><code>
+// Definição dos pinos
+#define TRIGGER_PIN 7
+#define ECHO_PIN 6
+#define SERVO_PIN 9
+
+void loop() {
+  long duration, distance;
+  
+  // Lógica do sensor ultrassônico
+  digitalWrite(TRIGGER_PIN, LOW); 
+  delayMicroseconds(2); 
+  digitalWrite(TRIGGER_PIN, HIGH);
+  
+  // Se distância < 20cm, abrir tampa
+  if (distance < 20) {
+     abrirTampa();
+  }
+}
+            </code></pre>
+            <div class="code-actions">
+                <a href="#" class="btn-download github"><i class="fab fa-github"></i> Ver Repositório</a>
+                <a href="#" class="btn-download zip"><i class="fas fa-file-archive"></i> Baixar Projeto (.zip)</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="parceria-titulo">Em parceria com:</h2>
+        <div class="parceria-container">
+            <a href="https://www.cesar.school" target="_blank"><img src="assets/images/Cesar.jpeg" alt="Cesar School"></a>
+            <a href="https://www.portodigital.org" target="_blank"><img src="assets/images/Porto.jpeg" alt="Porto Digital"></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,92 +1,98 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lixeira Automatizada - Projeto Sistemas Digitais</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Lixeira Automatizada</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body class="inicio-pagina">
+<body>
 
-<header>
-    <div class="logo">
-        <img src="logo.jpeg" alt="Lixeira Automatizada">
-    </div>
-    <div class="header-buttons">
-        <a href="equipe.html" class="btn">Equipe</a>
-        <a href="perguntas.html" class="btn">Perguntas</a>
-        <a href="prototipo.html" class="btn">Protótipo</a>
-    </div>
-</header>
+    <nav>
+        <div class="nav-content">
+            <div class="logo-mini">
+                <img src="assets/images/logo.jpeg" alt="Logo">
+                <span>Lixeira Automatizada</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="especificacoes.html">Especificações</a></li>
+                <li><a href="montagem.html">Montagem & Código</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
 
-<div class="principal-missao">
-    <h1>Missão do Projeto 🗑️</h1>
-    <p>
-        Nossa missão é transformar o ato de descartar lixo em algo simples, higiênico e totalmente automatizado. 
-        A Lixeira Automática nasce da ideia de unir tecnologia, praticidade e inovação para facilitar o dia a dia das pessoas. 
-        Com sensores inteligentes e movimentos automáticos, buscamos reduzir o contato físico, prevenir a disseminação de germes e oferecer uma experiência mais rápida, segura e eficiente. 
-        Acreditamos que, se o mundo evolui, até as pequenas tarefas — como jogar lixo fora — devem acompanhar esse avanço.
-    </p>
-    <br>
-    <br>
-    
-<h2>Propostas</h2>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Lixeira Automatizada 🗑️</h1>
+            <p class="tagline">Tecnologia, praticidade e inovação para um descarte consciente.</p>
+            <div class="keywords">
+                <span class="badge">Automação</span>
+                <span class="badge">Arduino</span>
+                <span class="badge">Sustentabilidade</span>
+                <span class="badge">Acessibilidade</span>
+            </div>
+            <a href="especificacoes.html" class="btn-hero">Ver Detalhes Técnicos</a>
+        </div>
+    </section>
 
-<div class="iniciativas">
-    <div class="iniciativa">
-        <img src="Lixeira.jpg" alt="Descarte Intuitivo">
-        <p>A Lixeira Automática foi pensada para tornar o descarte mais intuitivo, acessível e interativo, incentivando o usuário a descartar corretamente.</p>
-    </div>
+    <section class="container">
+        <h2>Sobre o Projeto</h2>
+        <div class="desc-grid">
+            <div class="card-desc">
+                <h3>Motivação</h3>
+                <p>O ato de descartar lixo envolve riscos de contaminação e barreiras de acessibilidade. Buscamos reduzir o contato físico em ambientes compartilhados.</p>
+            </div>
+            <div class="card-desc">
+                <h3>Objetivo</h3>
+                <p>Criar um sistema de descarte 100% automatizado e higiênico, utilizando sensores de baixo custo para uma solução replicável.</p>
+            </div>
+            <div class="card-desc">
+                <h3>Contextualização</h3>
+                <p>Projeto inserido no contexto de Cidades Inteligentes e IoT, aplicando conceitos de Sistemas Digitais para saúde pública.</p>
+            </div>
+        </div>
 
-    <div class="iniciativa">
-        <img src="toque.jpg" alt="Reduz a Necessidade de toque">
-        <p>Automatizando a tampa, o protótipo reduz a necessidade de toque, diminuindo riscos relacionados à transmissão de germes e bactérias.</p>
-    </div>
+        <div class="esquema-conceitual">
+            <h3>Esquema Conceitual</h3>
+            <div class="placeholder-img">
+                <p>Imagem do Esquema Conceitual / Diagrama de Blocos</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="iniciativa">
-        <img src="arduino.jpg" alt="Tecnologia">
-        <p>Mostramos que é possível criar equipamentos inteligentes com sensores, motores e circuitos básicos; promovendo inovação com criatividade.</p>
-    </div>
+    <section class="container">
+        <h2>Demonstração em Vídeo 🎬</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/9FOFril-Zs4" title="Vídeo demonstrativo" allowfullscreen></iframe>
+        </div>
+    </section>
 
-    <div class="iniciativa">
-        <img src="espacopequeno.jpg" alt="Ambientação">
-        <p>A lixeira se adapta a lugares apertados, com abertura que não atrapalha a circulação nem a posição de outros móveis.</p>
-    </div>
-</div>
+    <section class="container">
+        <h2>Conclusão e Aprendizados 🧠</h2>
+        <div class="desc-grid">
+            <div class="card-desc problema">
+                <h3>⚠️ Problemas Enfrentados</h3>
+                <p>Dificuldade na calibração do sensor ultrassônico e ajuste de torque do servo motor para o peso da tampa.</p>
+            </div>
+            <div class="card-desc licao">
+                <h3>✅ Lições Aprendidas</h3>
+                <p>Importância da modularização do código e impacto dos materiais físicos na escolha dos componentes eletrônicos.</p>
+            </div>
+        </div>
+    </section>
 
-<div class="iniciativas">
-    <div class="iniciativa">
-        <img src="sustentabilidade.jpg" alt="Sustentabilidade e Impacto Ambiental">
-        <p>O projeto contribui para um descarte mais consciente, incentivando práticas sustentáveis e reduzindo riscos de contaminação no ambiente.</p>
-    </div>
+    <footer>
+        <h2 class="parceria-titulo">Em parceria com:</h2>
+        <div class="parceria-container">
+            <a href="https://www.cesar.school" target="_blank"><img src="assets/images/Cesar.jpeg" alt="Cesar School"></a>
+            <a href="https://www.portodigital.org" target="_blank"><img src="assets/images/Porto.jpeg" alt="Porto Digital"></a>
+        </div>
+    </footer>
 
-    <div class="iniciativa">
-        <img src="eficiencia.jpg" alt="Eficiência Operacional">
-        <p>Desenvolvida para operar com baixo consumo energético, a lixeira automática mantém desempenho ideal sem comprometer a economia de energia.</p>
-    </div>
-
-    <div class="iniciativa">
-        <img src="engenharia.jpg" alt="Desenvolvimento e Engenharia">
-        <p>A construção do protótipo envolveu etapas de engenharia, testes de precisão e ajustes estruturais para garantir robustez e durabilidade.</p>
-    </div>
-
-    <div class="iniciativa">
-        <img src="inclusao.jpg" alt="Acessibilidade e Inclusão">
-        <p>A automação facilita o uso por pessoas com mobilidade reduzida, tornando o processo de descarte mais acessível e inclusivo.</p>
-    </div>
-</div>
-
-<footer>
-    <h2 class="parceria-titulo">Em parceria com:</h2>
-    <div class="parceria-container">
-        <a href="https://www.cesar.school" target="_blank">
-            <img src="Cesar.jpeg" alt="Cesar School">
-        </a>
-        <a href="https://www.portodigital.org" target="_blank">
-            <img src="Porto.jpeg" alt="Porto Digital">
-        </a>
-    </div>
-</footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

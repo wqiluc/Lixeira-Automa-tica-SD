@@ -25,6 +25,11 @@ O objetivo principal é aplicar os conceitos aprendidos na disciplina de Sistema
          width="14"
          style="vertical-align: middle; margin-left: 6px;" />
   </a>
+  <a href="https://github.com/danilosoba" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-C0C0C0?style=for-the-badge&logo=github&logoColor=black"
+         height="16"
+         style="vertical-align: middle; margin-left: 4px;" />
+  </a>
 </li>
 
 <li>

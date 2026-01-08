@@ -16,10 +16,22 @@ O objetivo principal é aplicar os conceitos aprendidos na disciplina de Sistema
 
 ---
 
-## 👨‍🏫 Docentes Responsáveis
+# 👨‍🏫 Docentes Responsáveis
 
 * **Danilo de Sousa Barbosa**
+  <a href="https://www.linkedin.com/in/danilobarbosati" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+         width="16"
+         style="filter: grayscale(100%); vertical-align: middle; margin-left: 6px;" />
+  </a>
+
 * **Rafael Batista Duarte**
+  <a href="https://www.linkedin.com/in/rafaelbatistaduarte" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+         width="16"
+         style="filter: grayscale(100%); vertical-align: middle; margin-left: 6px;" />
+  </a>
+
 
 ---
 

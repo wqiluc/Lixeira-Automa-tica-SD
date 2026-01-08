@@ -111,17 +111,26 @@ Projeto desenvolvido pelos discentes:
     <a href="https://www.linkedin.com/in/helam%C3%A3-procidio-428772367" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
     </a>
+    <a href="https://github.com/procidiohelama-star" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-C0C0C0?style=for-the-badge&logo=github&logoColor=black" height="16"/>
+    </a>
   </li>
   <li>
     Eduardo Cavalcanti
     <a href="https://www.linkedin.com/in/eduardoscavalcantij" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
     </a>
+    <a href="https://github.com/eduardo-scavalcanti" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-C0C0C0?style=for-the-badge&logo=github&logoColor=black" height="16"/>
+    </a>
   </li>
   <li>
     João Pedro Arruda
     <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-arruda-guimar%C3%A3es-157952287" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+    <a href="https://github.com/Jp230603" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-C0C0C0?style=for-the-badge&logo=github&logoColor=black" height="16"/>
     </a>
   </li>
   <li>
@@ -130,11 +139,13 @@ Projeto desenvolvido pelos discentes:
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
     </a>
   </li>
-
   <li>
     Lucas Paguetti
     <a href="https://www.linkedin.com/in/lucas-paguetti-pereira" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+    <a href="https://github.com/wqiluc" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-C0C0C0?style=for-the-badge&logo=github&logoColor=black" height="16"/>
     </a>
   </li>
   <li>
@@ -153,6 +164,9 @@ Projeto desenvolvido pelos discentes:
     Tiago Luiz
     <a href="https://www.linkedin.com/in/tiagoluiz23" target="_blank">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+    <a href="https://github.com/2006tiagoluiz" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-C0C0C0?style=for-the-badge&logo=github&logoColor=black" height="16"/>
     </a>
   </li>
 </ul>

@@ -1,6 +1,6 @@
 # 🗑️ Lixeira Automatizada com Arduino
 
-> Projeto desenvolvido para a disciplina de **Sistemas Digitais** > **Instituição:** Cesar School 🏫🧡🎓
+> Projeto desenvolvido para a disciplina de **Sistemas Digitais** - **Instituição:** Cesar School 🏫🧡🎓
 > **Curso:** Análise e Desenvolvimento de Sistemas — 1º Período (Noturno)
 
 ---
@@ -64,12 +64,22 @@ Para a construção do protótipo físico, foram utilizados:
 
 ### 🌐 Documentação Web (Site)
 
-<p align="left">
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+<p align="center">
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
   &nbsp;
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>
   &nbsp;
-  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+  <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+
+<br>
+<br>
+
+ <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=black"/> 
+
+<br>
+<br>
+ 
+<img src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=github&logoColor=white"/> 
 </p>
 
 ### 🤖 Protótipo e Lógica

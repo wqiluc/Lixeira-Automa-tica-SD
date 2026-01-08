@@ -1,4 +1,4 @@
-# 🗑️ Lixeira Automatizada com Arduino
+# 🗑️🤖 Lixeira Automatizada com Arduino
 
 > Projeto desenvolvido para a disciplina de **Sistemas Digitais** - **Instituição:** Cesar School 🏫🧡🎓
 > **Curso:** Análise e Desenvolvimento de Sistemas — 1º Período (Noturno)
@@ -83,9 +83,21 @@ Para a construção do protótipo físico, foram utilizados:
 </p>
 
 ### 🤖 Protótipo e Lógica
-* **Arduino IDE** (Ambiente de desenvolvimento);
-* **Linguagem C/C++** (Lógica do firmware);
-* **Tinkercad** (Simulação do circuito e testes prévios).
+<ul>
+  <li>
+    <strong>Arduino IDE</strong> (Ambiente de desenvolvimento)
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="16"/>
+  </li>
+  <li>
+    <strong>Linguagem C e C++</strong> (Lógica do firmware)
+    <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white" height="14" />
+    <img src="https://img.shields.io/badge/C++-5E2CA5?style=flat&logo=c%2B%2B&logoColor=white" height="14"/>
+  </li>
+  <li>
+    <strong>Tinkercad</strong> (Simulação do circuito e testes prévios)
+    <img src="https://img.shields.io/badge/Tinkercad-FF6F00?style=flat&logo=autodesk&logoColor=white" height="14"/>
+  </li>
+</ul>
 
 ---
 

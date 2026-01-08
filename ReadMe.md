@@ -105,14 +105,57 @@ Para a construção do protótipo físico, foram utilizados:
 
 Projeto desenvolvido pelos discentes:
 
-* **Helamã Procídio** (Líder) 👑
-* Eduardo Cavalcanti
-* João Pedro Arruda
-* Glauberson Ribeiro
-* Lucas Paguetti
-* Pablo Tamborini
-* Rodrigo Morais
-* Tiago Luiz
+<ul>
+  <li>
+    <strong>Helamã Procídio</strong> (Líder) 👑
+    <a href="https://www.linkedin.com/in/helam%C3%A3-procidio-428772367" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+  <li>
+    Eduardo Cavalcanti
+    <a href="https://www.linkedin.com/in/eduardoscavalcantij" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+  <li>
+    João Pedro Arruda
+    <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-arruda-guimar%C3%A3es-157952287" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+  <li>
+    Glauberson Ribeiro
+    <a href="https://www.linkedin.com/in/glauberson-ribeiro-682037392" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+
+  <li>
+    Lucas Paguetti
+    <a href="https://www.linkedin.com/in/lucas-paguetti-pereira" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+  <li>
+    Pablo Tamborini
+    <a href="https://www.linkedin.com/in/pablo-tamborini-nogueira" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+  <li>
+    Rodrigo Morais
+    <a href="https://www.linkedin.com/in/rodrigo-montenegro-85aa12380" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+  <li>
+    Tiago Luiz
+    <a href="https://www.linkedin.com/in/tiagoluiz23" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="14"/>
+    </a>
+  </li>
+</ul>
 
 ---
 

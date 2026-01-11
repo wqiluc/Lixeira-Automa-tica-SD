@@ -208,3 +208,5 @@ Site Projeto SD/
 │   └── script.js       ⚙️ (Interatividade do menu e animações)
 │
 └── assets/images/      🖼️ (Logo, fotos da equipe e do protótipo)
+<img src="https://img.shields.io/badge/-Arquitetura-111827?style=flat-square&logo=databricks&logoColor=white"
+     style="vertical-align:middle; margin-left:5px;"/>

@@ -189,6 +189,9 @@ Projeto desenvolvido pelos discentes:
 
 ## 🗂️ Estrutura de Arquivos do Projeto
 
+<img src="https://img.shields.io/badge/-Arquitetura-111827?style=flat-square&logo=databricks&logoColor=white"
+style="vertical-align:middle; margin-left:5px;"/>
+     
 Abaixo, a organização dos arquivos da documentação web (site) do projeto:
 
 ```text
@@ -208,5 +211,3 @@ Site Projeto SD/
 │   └── script.js       ⚙️ (Interatividade do menu e animações)
 │
 └── assets/images/      🖼️ (Logo, fotos da equipe e do protótipo)
-<img src="https://img.shields.io/badge/-Arquitetura-111827?style=flat-square&logo=databricks&logoColor=white"
-     style="vertical-align:middle; margin-left:5px;"/>

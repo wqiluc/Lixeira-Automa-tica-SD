@@ -20,7 +20,7 @@ O objetivo principal é aplicar os conceitos aprendidos na disciplina de Sistema
 
 <li>
   Danilo de Sousa Barbosa
-  <a href="https://www.linkedin.com/in/danilo" target="_blank">
+  <a href="https://www.linkedin.com/in/danilobarbosati" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
          width="14"
          style="vertical-align: middle; margin-left: 6px;" />
